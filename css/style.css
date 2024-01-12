@@ -163,6 +163,27 @@ small {
     margin-bottom: 1.25rem;
 }
 
+@media (max-width: 48rem) {
+  input {
+    width: 80%;
+  }
+
+  .output span {
+    font-size: 1.75rem;
+  }
+
+  .submit-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    right: 40%;
+    top: 5.625rem;
+  }
+
+  .submit-btn img {
+    transform: scale(0.5rem);
+  }
+}
+
 
 
 
